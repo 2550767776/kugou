@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>歌单</title>
+		<link rel="stylesheet" type="text/css" href="css/mvsong.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headerfooter.css"/>
+	</head>
+	<body onload="songlist()">
+		<div class="header">
+			<div class="top">
+				<span class="logo"></span>
+				<div class="serch">
+					<input type="text" name="serchtext" id="serchtext" value="肖敏晔 回到过去" onfocus="if(this.value=='肖敏晔 回到过去'){this.value=''}" onblur="if(this.value==''){this.value='肖敏晔 回到过去'}"/>
+					<i></i>
+				</div>
+				<ul>
+					<li>客服中心</li>
+					<li>招贤纳士</li>
+					<li>会员中心</li>
+				</ul>
+				<a href="#">登录</a>
+				<a href="#" class="whitebtn">注册</a>
+			</div>
+			<div class="bottom">
+				<ul class="navleft">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">榜单</a></li>
+					<li><a href="#">下载客户端</a></li>
+					<li class="parent"><a href="#">更多</a>
+						<ul class="navson">
+							<li><a href="#">电台</a></li>
+							<li><a href="#">MV</a></li>
+							<li><a href="#">歌单</a></li>
+							<li><a href="#">歌手</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="navright">
+					<li><a href="#" style="background-position: 0 -120px;" onmouseover="this.style.backgroundPositionY='-102px'" onmouseout="this.style.backgroundPositionY='-120px'">音乐直播</a></li>
+					<li><a href="#" style="background-position: 0 -156px;" onmouseover="this.style.backgroundPositionY='-138px'"  onmouseout="this.style.backgroundPositionY='-156px'">酷狗LIVE</a></li>
+					<li><a href="#" style="background-position: 0 -192px;" onmouseover="this.style.backgroundPositionY='-174px'"  onmouseout="this.style.backgroundPositionY='-192px'">音乐人</a></li>
+					<li><a href="#" style="background-position: 0 -227px;" onmouseover="this.style.backgroundPositionY='-209px'"  onmouseout="this.style.backgroundPositionY='-227px'">游戏</a></li>
+					<li><a href="#" style="background-position: 0 -282px;" onmouseover="this.style.backgroundPositionY='-246px'"  onmouseout="this.style.backgroundPositionY='-282px'">商城</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="continer2">
+			<div class="leftmanu">
+				<ul class="manu">
+					<li class="selected">推荐</li>
+					<li>最热</li>
+					<li>最新</li>
+					<li>热藏</li>
+					<li>飙升</li>
+				</ul>
+			</div>
+			<div class="right">
+				<ul class="songlist">
+				</ul>
+				<div class="downloadlink">
+					查看更多内容，请下载客户端 
+					<a href="#">立即下载</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footerhead">
+				<a href="#">关于酷狗</a>|
+				<a href="#">监督举报</a>|
+				<a href="#">广告服务</a>|
+				<a href="#">版权指引</a>|
+				<a href="#">隐私政策</a>|
+				<a href="#">用户服务协议</a>|
+				<a href="#">推广合作</a>|
+				<a href="#">酷狗音乐人</a>|
+				<a href="#">酷狗音乐推</a>|
+				<a href="#">招聘信息</a>|
+				<a href="#">客服中心</a>|
+				<a href="#">用户体验提升计划</a>
+			</div>
+			<div class="footerbody">
+				<p>我们致力于推动网络正版音乐发展，相关版权合作请联系copyrights@kugou.com</p>
+				<p>信息网络传播视听节目许可证 1910564 增值电信业务经营许可证粤B2-20060339 &nbsp;&nbsp;&nbsp;粤ICP备09017694号-2 <i class="footerimg1"></i> </p>
+				<p>广播电视节目制作经营许可证（粤）字第01270号&nbsp;&nbsp;&nbsp;&nbsp;营业性演出许可证穗天演440106026</p>
+				<p>穗公网监备案证第44010650010167&nbsp;&nbsp;&nbsp;&nbsp;互联网药品信息服务资格证编号（粤）-非经营性-2012-0018</p>
+				<p>Copyright&nbsp;&nbsp;©&nbsp;&nbsp;2004-2017 KuGou-Inc.All Rights Reserved&nbsp; <i class="footerimg2"></i></p>
+			</div>
+		</div>
+		<script src="js/mvsong.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
